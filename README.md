@@ -14,4 +14,6 @@ I also learned that `NavLink` component, this component is similar to the `Link`
 
 ### React Hooks
 
-I learned how to use basic React Hooks and learn new hook called `useLocation` to get the current path.
+- I learned how to use basic React Hooks and learn new hook called `useLocation` to get the current path.
+- I learned how to use `useNavigate` hook to navigate to a path and return to the previous path more easily.
+- I learned `redirect` but it's better use it with loader or actions

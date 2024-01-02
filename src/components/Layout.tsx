@@ -1,4 +1,5 @@
 import { Link, Outlet, useLocation } from 'react-router-dom';
+import { Pages } from '../constants';
 
 function Layout() {
 	const location = useLocation();
@@ -16,7 +17,7 @@ function Layout() {
 				<nav>
 					<Link
 						className={`${validateActive(
-							'/'
+							Pages.Home
 						)} text-2xl block mt-2 hover:text-blue-300`}
 						to='/'
 					>
@@ -24,7 +25,7 @@ function Layout() {
 					</Link>
 					<Link
 						className={`${validateActive(
-							'/clients/new'
+							Pages.NewClient
 						)} text-2xl block mt-2  hover:text-blue-300`}
 						to='/clients/new'
 					>
